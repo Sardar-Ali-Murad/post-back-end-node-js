@@ -23,7 +23,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "*",
   credentials: true,
 };
 
