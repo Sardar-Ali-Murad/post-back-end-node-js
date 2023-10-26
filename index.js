@@ -23,7 +23,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const corsOptions = {
-  origin: "*",
+  origin: "https://post-front-end-next-js.vercel.app",
   credentials: true,
 };
 
